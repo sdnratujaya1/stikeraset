@@ -1,0 +1,68 @@
+#stiker{
+background-color:yellow;
+border:1px solid black;
+border-radius:5px;
+padding: 5px;
+width:49%;
+margin:3px 2px;
+overflow:auto;
+float:left;
+}
+img.logo{
+width:75px; 
+ 
+  }
+.isidata{
+width:98%;
+margin:17px 1px;
+}
+
+#tempatlogo{
+	text-align:center;
+	width:27%;
+	float:left;
+	margin: 25px 2px 5px 2px;
+	font-size:8px;
+	word-wrap:break-word;
+	overflow:auto;
+	}
+
+table{
+	border-collapse:collapse;
+	width:70%
+	}
+
+th, td {
+	font-size:10px;
+		
+	}
+tr:nth-child(odd){
+	background-color:white;
+		border:1px solid black;
+	border-radius:5px;
+	}
+td:nth-child(3) {
+	width:68%;
+	text-align:left;
+	background-color:white;
+	}
+	
+	
+@media only screen and (max-width: 218px) {
+	th, td{
+		font-size:8px
+		
+	}
+	td:nth-child(3) {
+	background-color:black;
+	text-align:right;
+	}
+
+	#tempatlogo{
+		font-size:8px;
+	}
+	img.logo{
+		width:10px; 
+	 
+	  }
+}	

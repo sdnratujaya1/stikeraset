@@ -2,7 +2,7 @@ body{
 	-webkit-print-color-adjust: exact !important;
 }
 #stiker{
-background-color:yellow;
+background-color:yellow !important;
 border:1px solid black;
 border-radius:5px;
 padding: 5px;
